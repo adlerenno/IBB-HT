@@ -1,0 +1,12 @@
+./benchmark ./data/othello.txt
+mv benchmarks.csv benchmark_othello.csv
+./benchmark ./data/macbeth.txt
+mv benchmarks.csv benchmark_macbeth.csv
+./benchmark ./data/kinglear.txt
+mv benchmarks.csv benchmark_kinglear.csv
+./benchmark ./data/romeoandjuliet.txt
+mv benchmarks.csv benchmark_romeoandjuliet.csv
+./benchmark ./data/hamlet.txt
+mv benchmarks.csv benchmark_hamlet.csv
+./benchmark ./data/hamlet.txt ./data/kinglear.txt ./data/macbeth.txt ./data/othello.txt ./data/romeoandjuliet.txt
+mv benchmarks.csv benchmark_all.csv
